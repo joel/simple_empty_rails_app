@@ -12,7 +12,8 @@
     "tool"
   ],
   "addons": [
-    "heroku-postgresql:free"
+    "heroku-postgresql:free",
+    "logentries"
   ],
   "env": {
     "RAILS_ENV": "production"

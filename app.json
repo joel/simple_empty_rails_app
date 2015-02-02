@@ -1,0 +1,11 @@
+{
+  "name": "Simple Empty Rails App",
+  "description": "TODO: Add a short description about Simple Empty Rails App",
+  "keywords": [
+    "small",
+    "sharp",
+    "tool"
+  ],
+  "addons": [],
+  "env": {}
+}

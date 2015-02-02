@@ -1,11 +1,15 @@
 {
   "name": "Simple Empty Rails App",
   "description": "TODO: Add a short description about Simple Empty Rails App",
+  "repository": "https://github.com/joel/simple_empty_rails_app.git",
+  "success_url": "/posts",
   "keywords": [
     "small",
     "sharp",
     "tool"
   ],
-  "addons": [],
+  "addons": [
+    "heroku-postgresql:free"
+  ],
   "env": {}
 }

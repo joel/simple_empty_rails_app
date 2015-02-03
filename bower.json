@@ -1,0 +1,24 @@
+{
+  "name": "Simple Empty Rails App",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joel/simple_empty_rails_app",
+  "authors": [
+    "joel AZEMAR <joel.azemar@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "bootstrap-lightbox": "jbutz/bootstrap-lightbox#~0.7.0",
+    "components-font-awesome": "~4.2.0",
+    "jquery-ui": "~1.11.2",
+    "momentjs": "~2.8.4"
+  }
+}

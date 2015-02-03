@@ -19,7 +19,8 @@
     "pgbackups",
     "redistogo",
     "scheduler",
-    "postmark"
+    "postmark",
+    "ssl"
   ],
   "env": {
     "BUILDPACK_URL": "https://github.com/qnyp/heroku-buildpack-ruby-bower",

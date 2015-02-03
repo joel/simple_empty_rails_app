@@ -1,7 +1,7 @@
 {
   "name": "Simple Empty Rails App",
   "description": "Short description about Simple Empty Rails App",
-  "repository": "https://github.com/joel/simple_empty_rails_app.git",
+  "repository": "https://github.com/joel/simple_empty_rails_app",
   "success_url": "/posts",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
@@ -13,9 +13,20 @@
   ],
   "addons": [
     "heroku-postgresql",
-    "logentries"
+    "logentries",
+    "memcachier",
+    "newrelic",
+    "pgbackups",
+    "redistogo",
+    "scheduler",
+    "postmark"
   ],
   "env": {
-    "RAILS_ENV": "production"
+    "BUILDPACK_URL": "https://github.com/qnyp/heroku-buildpack-ruby-bower",
+    "RAILS_ENV": "production",
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "1"
+    }
   }
 }
